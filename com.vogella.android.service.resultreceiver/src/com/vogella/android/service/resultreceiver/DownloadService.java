@@ -30,7 +30,7 @@ public class DownloadService extends IntentService {
 		super("DownloadService");
 	}
 
-	// Will be called asynchronously be Android
+	// Will be called asynchronously by Android
 	@Override
 	protected void onHandleIntent(Intent intent) {
 		String urlPath = intent.getStringExtra(URL);
